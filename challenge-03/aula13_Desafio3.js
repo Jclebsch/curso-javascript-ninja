@@ -38,10 +38,9 @@ booleano que representa "verdadeiro";
 */
 pessoa.andar = function (a) {
     pessoa.andando = true
-    pessoa.caminhouQuantosMetros = a
+    pessoa.caminhouQuantosMetros += a
 }
-pessoa.andar()
-console.log(pessoa)
+
 /*
 Adicione um método ao objeto `pessoa` chamado `parar`, que irá modificar o valor
 da propriedade `andando` para o valor booleano que representa "falso".
@@ -127,9 +126,9 @@ mostrarIdade()
 Agora, faça a `pessoa` caminhar alguns metros, invocando o método `andar` 3x,
 com metragens diferentes passadas por parâmetro.
 */
-pessoa.andar(500)
-pessoa.andar(200)
-pessoa.andar(300)
+pessoa.andar(50)
+pessoa.andar(2)
+pessoa.andar(3)
 
 /*
 A pessoa ainda está andando? (Use a instrução para responder e comentários
